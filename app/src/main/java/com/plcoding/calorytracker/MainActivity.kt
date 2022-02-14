@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.mobile.onboarding_presentation.welcome.WelcomeScreen
 import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
 
 class MainActivity : ComponentActivity() {
@@ -15,11 +16,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CaloryTrackerTheme {
-
+                WelcomeScreen()
             }
         }
-
-
 
     }
 }
