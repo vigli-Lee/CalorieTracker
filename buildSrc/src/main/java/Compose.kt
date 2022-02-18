@@ -18,4 +18,8 @@ object Compose {
 
     private const val lifecycleVersion = "2.4.0"
     const val viewModelCompose = "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycleVersion"
+
+    private const val composeUiToolingVersion = "1.0.5"
+    const val composeUiTooling = "androidx.compose.ui:ui-tooling:$composeUiToolingVersion"
+    const val composeUiToolingPreview = "androidx.compose.ui:ui-tooling-preview:$composeUiToolingVersion"
 }
