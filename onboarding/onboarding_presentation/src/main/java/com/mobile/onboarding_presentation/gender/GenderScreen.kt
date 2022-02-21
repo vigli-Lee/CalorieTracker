@@ -25,7 +25,6 @@ import com.mobile.onboarding_presentation.components.ActionButton
 import com.mobile.onboarding_presentation.components.SelectableButton
 import kotlinx.coroutines.flow.collect
 
-@Preview
 @Composable
 fun GenderScreen(
     onNavigate: (UiEvent.Navigate) -> Unit,
