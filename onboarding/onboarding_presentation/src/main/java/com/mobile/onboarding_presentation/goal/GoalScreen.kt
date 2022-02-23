@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.mobile.core.domain.model.ActivityLevel
 import com.mobile.core.domain.model.GoalType
@@ -25,6 +26,7 @@ import com.mobile.onboarding_presentation.components.ActionButton
 import com.mobile.onboarding_presentation.components.SelectableButton
 import kotlinx.coroutines.flow.collect
 
+@Preview
 @Composable
 fun GoalScreen(
     onNavigate: (UiEvent.Navigate) -> Unit,
