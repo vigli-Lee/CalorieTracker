@@ -15,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.mobile.core.util.UiEvent
 import com.mobile.core_ui.LocalSpacing
@@ -23,6 +24,7 @@ import com.mobile.onboarding_presentation.components.ActionButton
 import com.mobile.onboarding_presentation.components.UnitTextField
 import kotlinx.coroutines.flow.collect
 
+@Preview
 @Composable
 fun NutrientGoalScreen(
     scaffoldState: ScaffoldState,
