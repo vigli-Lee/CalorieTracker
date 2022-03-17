@@ -48,7 +48,7 @@ fun SearchScreen(
                     )
                     keyboardController?.hide()
                 }
-                is UiEvent.NavigateUp -> onNavigateUp
+                is UiEvent.NavigateUp -> onNavigateUp()
                 else -> Unit
             }
         }

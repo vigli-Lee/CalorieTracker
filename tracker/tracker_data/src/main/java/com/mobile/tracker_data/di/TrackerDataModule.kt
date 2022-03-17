@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.room.Room
 import com.mobile.tracker_data.local.TrackerDatabase
 import com.mobile.tracker_data.remote.OpenFoodApi
-import com.mobile.tracker_data.repository.TrackRepositoryImpl
+import com.mobile.tracker_data.repository.TrackerRepositoryImpl
 import com.mobile.tracker_domain.repository.TrackerRepository
 import dagger.Module
 import dagger.Provides
@@ -60,7 +60,7 @@ object TrackerDataModule {
         api: OpenFoodApi,
         db: TrackerDatabase
     ): TrackerRepository {
-        return TrackRepositoryImpl(
+        return TrackerRepositoryImpl(
             dao = db.dao,
             api = api
         )

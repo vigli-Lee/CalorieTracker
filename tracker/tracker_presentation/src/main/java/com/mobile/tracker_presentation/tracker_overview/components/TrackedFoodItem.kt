@@ -102,7 +102,7 @@ fun TrackedFoodItem(
                 contentDescription = stringResource(id = R.string.delete),
                 modifier = Modifier
                     .align(Alignment.End)
-                    .clickable { onDeleteClick }
+                    .clickable { onDeleteClick() }
             )
             Spacer(modifier = Modifier.height(spacing.spaceExtraSmall))
             Row(
