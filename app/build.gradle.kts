@@ -105,3 +105,7 @@ dependencies {
     kaptAndroidTest(DaggerHilt.hiltCompiler)
     androidTestImplementation(Testing.testRunner)
 }
+
+
+//task generateDependencyGraph
+rootProject.plugins.apply(com.vanniktech.dependency.graph.generator.DependencyGraphGeneratorPlugin::class.java)
